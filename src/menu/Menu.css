@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+html {
+  background-image: url("bbqPic.jpg");
+  background-size: cover;
+  
+  opacity: .90;
+}
+
+
+.Menu {
+  background-color: rgb(18, 18, 20);
+  border: 5px double aqua;
+  width: 600px;
+  margin: 28px auto;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.Menu-title {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 75px;
+  color: red;
+  text-decoration: none;
+  text-align: center;
+  border: 5px double red;
+  border-radius: 75px;
+}
+.menu-tagline {
+  text-align: center;
+  font-size: 30px;
+  transform: translateY(-80px);
+  text-decoration: underline;
+}
+
+.Menu h2 {
+  text-align: right;
+  padding-right: 20px;
+}
+
+#pos-btn {
+  font-size: 20px;
+  color: black;
+}
+#neg-btn {
+  font-size: 25px;
+  color: red;
+}
